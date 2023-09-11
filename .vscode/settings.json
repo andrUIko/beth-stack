@@ -1,5 +1,7 @@
 {
 	"files.associations": {
-		"*.css": "tailwindcss",
-	}
+		"*.css": "tailwindcss"
+	},
+	"typescript.suggest.paths": false,
+	"javascript.suggest.paths": false
 }

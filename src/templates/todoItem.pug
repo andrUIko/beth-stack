@@ -1,0 +1,16 @@
+div(class="flex flex-row space-x-3")
+	p #{todo.content}
+	input(
+		type="checkbox"
+		checked=todo.completed
+		hx-post=`/todos/toggle/${todo.id}`
+		hx-swap="outerHTML"
+		hx-target="closest div"
+	)
+	button(
+		class="text-red-500"
+		hx-delete=`/todos/${todo.id}`
+		hx-swap="outerHTML"
+		hx-target="closest div"
+	)
+		|X

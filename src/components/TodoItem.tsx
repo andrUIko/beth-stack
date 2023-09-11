@@ -1,5 +1,5 @@
-import * as elements from 'typed-html';
-import { Todo } from '../db/schema';
+import * as elements from "typed-html";
+import { Todo } from "../db/schema";
 
 const TodoItem = ({ content, completed, id }: Todo) => {
 	return (
@@ -22,6 +22,6 @@ const TodoItem = ({ content, completed, id }: Todo) => {
 			</button>
 		</div>
 	);
-}
+};
 
 export default TodoItem;
