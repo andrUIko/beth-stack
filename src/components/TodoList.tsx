@@ -1,7 +1,7 @@
-import * as elements from 'typed-html';
-import { Todo } from '../db/schema';
-import TodoForm from './TodoForm';
-import TodoItem from './TodoItem';
+import * as elements from "typed-html";
+import { Todo } from "../db/schema";
+import TodoForm from "./TodoForm";
+import TodoItem from "./TodoItem";
 
 const TodoList = ({ todos }: { todos: Todo[] }) => {
 	return (
@@ -12,6 +12,6 @@ const TodoList = ({ todos }: { todos: Todo[] }) => {
 			<TodoForm />
 		</div>
 	);
-}
+};
 
 export default TodoList;

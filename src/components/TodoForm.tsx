@@ -12,6 +12,6 @@ const TodoForm = () => {
 			<button type="submit">Add</button>
 		</form>
 	);
-}
+};
 
 export default TodoForm;
